@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.328 sec <<< FAILURE!
+setUpClass(TestRunners.TestNgTestRunner)  Time elapsed: 0 sec  <<< FAILURE!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in StepDefinitions.functional.MemberDemographicSteps.verify_status_code(int) in file:/C:/Users/vmsaisumamanasa/Desktop/BDDWebserviceAndUi-Master/BDDWebserviceAndUi-master/target/classes/ and StepDefinitions.webServices.MemberRewardServiceSteps.verifyResponseStatus(int) in file:/C:/Users/vmsaisumamanasa/Desktop/BDDWebserviceAndUi-Master/BDDWebserviceAndUi-master/target/classes/
+	at cucumber.runtime.RuntimeGlue.addStepDefinition(RuntimeGlue.java:33)
+	at cucumber.runtime.java.JavaBackend.addStepDefinition(JavaBackend.java:151)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:68)
+	at cucumber.runtime.java.MethodScanner.scan(MethodScanner.java:41)
+	at cucumber.runtime.java.JavaBackend.loadGlue(JavaBackend.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:92)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:70)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:66)
+	at cucumber.api.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:42)
+	at TestRunners.TestNgTestRunner.setUpClass(TestNgTestRunner.java:45)
+tearDownClass(TestRunners.TestNgTestRunner)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at TestRunners.TestNgTestRunner.tearDownClass(TestNgTestRunner.java:93)

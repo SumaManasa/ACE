@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BDD Webservice And UI]" parallel="tests">
+  <test name="All Tests">
+    <classes>
+      <class name="TestRunners.TestNgTestRunner"/>
+    </classes>
+  </test> <!-- All Tests -->
+  <test name="All Tests(failed)" parallel="tests">
+    <classes>
+      <class name="TestRunners.TestNgTestRunner">
+        <methods>
+          <include name="feature"/>
+          <include name="readInputData"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- TestRunners.TestNgTestRunner -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [BDD Webservice And UI] -->

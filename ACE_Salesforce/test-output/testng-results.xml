@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="846509" started-at="2018-08-22T14:50:36Z" finished-at="2018-08-22T15:04:42Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestNgTestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunners.TestNgTestRunner@694abbdc]" name="feature" class="TestRunners.TestNgTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="846509" started-at="2018-08-22T14:50:36Z" finished-at="2018-08-22T15:04:42Z">
+      <class name="TestRunners.TestNgTestRunner">
+        <test-method status="PASS" signature="readInputData()[pri:0, instance:TestRunners.TestNgTestRunner@694abbdc]" name="readInputData" is-config="true" duration-ms="19" started-at="2018-08-22T20:20:36Z" finished-at="2018-08-22T20:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readInputData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunners.TestNgTestRunner@694abbdc]" name="setUpClass" is-config="true" duration-ms="415" started-at="2018-08-22T20:20:36Z" finished-at="2018-08-22T20:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunners.TestNgTestRunner@694abbdc]" name="feature" duration-ms="845486" started-at="2018-08-22T20:20:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-22T20:34:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Member Demographics displayed on Member360 Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunners.TestNgTestRunner@694abbdc]" name="tearDownClass" is-config="true" duration-ms="476" started-at="2018-08-22T20:34:42Z" finished-at="2018-08-22T20:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunners.TestNgTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
